@@ -3,6 +3,10 @@ import styles from "./Smoke.module.css";
 
 export default class Smoke extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div className={styles.smoke}>
+        <video className={styles.video} autoPlay loop src="smoke.mov" />
+      </div>
+    );
   }
 }

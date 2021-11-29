@@ -3,6 +3,10 @@ import styles from "./Rocket.module.css";
 
 export default class Rocket extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <img src="/shuttle.png" alt="shuttle" className="style.img" />
+      </div>
+    );
   }
 }
